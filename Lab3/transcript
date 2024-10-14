@@ -1,0 +1,188 @@
+# Reading D:/ModelSim/modelsim/tcl/vsim/pref.tcl 
+# OpenFile D:/An_2/CA/Lab3/ex1a.v 
+vlog ex1a.v
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# ** Error: (vlog-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# D:/ModelSim/modelsim/win32aloem/vlog failed.
+do run_ex1a.txt.crdownload
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module ex1a
+# -- Compiling module ex1a_tb
+# 
+# Top level modules:
+# 	ex1a_tb
+# vsim -voptargs=+acc ex1a_tb 
+# Loading work.ex1a_tb
+# Loading work.ex1a
+# Time	a	b	c	abcd_10	f1
+# 0	0	0	0	0	1
+# 10	0	0	1	1	0
+# 20	0	1	0	2	1
+# 30	0	1	1	3	1
+# 40	1	0	0	4	1
+# 50	1	0	1	5	1
+# 60	1	1	0	6	0
+# 70	1	1	1	7	1
+do run_ex1b.txt
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module ex1b
+# -- Compiling module ex1b_tb
+# 
+# Top level modules:
+# 	ex1b_tb
+# vsim -voptargs=+acc ex1b_tb 
+# Loading work.ex1b_tb
+# Loading work.ex1b
+# Time	a	b	c	d	abcd_10	f2
+# 0	0	0	0	0	0	0
+# 10	0	0	0	1	1	1
+# 20	0	0	1	0	2	0
+# 30	0	0	1	1	3	0
+# 40	0	1	0	0	4	0
+# 50	0	1	0	1	5	1
+# 60	0	1	1	0	6	0
+# 70	0	1	1	1	7	1
+# 80	1	0	0	0	8	1
+# 90	1	0	0	1	9	1
+# 100	1	0	1	0	10	1
+# 110	1	0	1	1	11	1
+# 120	1	1	0	0	12	0
+# 130	1	1	0	1	13	1
+# 140	1	1	1	0	14	0
+# 150	1	1	1	1	15	1
+do run_ex1c.txt
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module ex1c
+# -- Compiling module ex1c_tb
+# 
+# Top level modules:
+# 	ex1c_tb
+# vsim -voptargs=+acc ex1c_tb 
+# Loading work.ex1c_tb
+# Loading work.ex1c
+# Time	a	b	c	d	abcd_10	f3
+# 0	0	0	0	0	0	1
+# 10	0	0	0	1	1	1
+# 20	0	0	1	0	2	1
+# 30	0	0	1	1	3	1
+# 40	0	1	0	0	4	0
+# 50	0	1	0	1	5	1
+# 60	0	1	1	0	6	0
+# 70	0	1	1	1	7	1
+# 80	1	0	0	0	8	0
+# 90	1	0	0	1	9	0
+# 100	1	0	1	0	10	0
+# 110	1	0	1	1	11	0
+# 120	1	1	0	0	12	0
+# 130	1	1	0	1	13	1
+# 140	1	1	1	0	14	0
+# 150	1	1	1	1	15	1
+do run_ex1c.txt
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module ex1c
+# -- Compiling module ex1c_tb
+# 
+# Top level modules:
+# 	ex1c_tb
+# vsim -voptargs=+acc ex1c_tb 
+# Loading work.ex1c_tb
+# Loading work.ex1c
+# Time	a	b	c	d	abcd_10	f3
+# 0	0	0	0	0	0	1
+# 10	0	0	0	1	1	1
+# 20	0	0	1	0	2	1
+# 30	0	0	1	1	3	1
+# 40	0	1	0	0	4	0
+# 50	0	1	0	1	5	1
+# 60	0	1	1	0	6	0
+# 70	0	1	1	1	7	1
+# 80	1	0	0	0	8	0
+# 90	1	0	0	1	9	0
+# 100	1	0	1	0	10	0
+# 110	1	0	1	1	11	0
+# 120	1	1	0	0	12	0
+# 130	1	1	0	1	13	1
+# 140	1	1	1	0	14	0
+# 150	1	1	1	1	15	1
+do run_ex1c.txt
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module ex1c
+# -- Compiling module ex1c_tb
+# 
+# Top level modules:
+# 	ex1c_tb
+# vsim -voptargs=+acc ex1c_tb 
+# Loading work.ex1c_tb
+# Loading work.ex1c
+# Time	a	b	c	d	abcd_10	f3
+# 0	0	0	0	0	0	1
+# 10	0	0	0	1	1	1
+# 20	0	0	1	0	2	1
+# 30	0	0	1	1	3	1
+# 40	0	1	0	0	4	0
+# 50	0	1	0	1	5	1
+# 60	0	1	1	0	6	0
+# 70	0	1	1	1	7	1
+# 80	1	0	0	0	8	0
+# 90	1	0	0	1	9	0
+# 100	1	0	1	0	10	0
+# 110	1	0	1	1	11	0
+# 120	1	1	0	0	12	0
+# 130	1	1	0	1	13	1
+# 140	1	1	1	0	14	0
+# 150	1	1	1	1	15	1
+do run_ex1c.txt
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module ex1c
+# -- Compiling module ex1c_tb
+# 
+# Top level modules:
+# 	ex1c_tb
+# vsim -voptargs=+acc ex1c_tb 
+# Loading work.ex1c_tb
+# Loading work.ex1c
+# Time	a	b	c	d	abcd_10	f3
+# 0	0	0	0	0	0	1
+# 10	0	0	0	1	1	0
+# 20	0	0	1	0	2	0
+# 30	0	0	1	1	3	0
+# 40	0	1	0	0	4	1
+# 50	0	1	0	1	5	1
+# 60	0	1	1	0	6	0
+# 70	0	1	1	1	7	1
+# 80	1	0	0	0	8	0
+# 90	1	0	0	1	9	0
+# 100	1	0	1	0	10	0
+# 110	1	0	1	1	11	0
+# 120	1	1	0	0	12	0
+# 130	1	1	0	1	13	1
+# 140	1	1	1	0	14	0
+# 150	1	1	1	1	15	1
+do run_ex1c.txt
+# Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+# -- Compiling module ex1c
+# -- Compiling module ex1c_tb
+# 
+# Top level modules:
+# 	ex1c_tb
+# vsim -voptargs=+acc ex1c_tb 
+# Loading work.ex1c_tb
+# Loading work.ex1c
+# Time	a	b	c	d	abcd_10	f3
+# 0	0	0	0	0	0	1
+# 10	0	0	0	1	1	0
+# 20	0	0	1	0	2	0
+# 30	0	0	1	1	3	0
+# 40	0	1	0	0	4	1
+# 50	0	1	0	1	5	1
+# 60	0	1	1	0	6	0
+# 70	0	1	1	1	7	1
+# 80	1	0	0	0	8	1
+# 90	1	0	0	1	9	0
+# 100	1	0	1	0	10	0
+# 110	1	0	1	1	11	0
+# 120	1	1	0	0	12	1
+# 130	1	1	0	1	13	1
+# 140	1	1	1	0	14	0
+# 150	1	1	1	1	15	1
