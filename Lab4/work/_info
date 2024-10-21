@@ -19,12 +19,27 @@ Z3 o-work work -nocovercells -O0
 !s85 0
 !s101 -O0
 vmux_1s_1b
-!s100 Jzb6hAofi<zWIMfoDaEbA2
 IzL7`?fg>fC5m08i7k29Zb0
 V[nX0[FXKKVOZ>;eVae?zL0
 Z4 w1729499840
 Z5 8D:/An_2/ComputerArhitecture/Lab4/pb44.v
 Z6 FD:/An_2/ComputerArhitecture/Lab4/pb44.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 Jzb6hAofi<zWIMfoDaEbA2
+!s85 0
+!s101 -O0
+vmux_1s_1b_tb
+!s100 C_Y^^7RNm1WZJP;P;5FYC3
+IcoNOE6geXilTIB=dc_oNZ1
+VIbXof:T;McLiOioDkY76Y1
+w1729500367
+8D:/An_2/ComputerArhitecture/Lab4/pb45.v
+FD:/An_2/ComputerArhitecture/Lab4/pb45.v
 L0 1
 R1
 r1
@@ -34,7 +49,6 @@ r1
 R2
 R3
 vreg_parl_2b
-!s100 BNMeN]ORC5MH?bKg4:8eP0
 I^eOQFl^:KM=B498Vl?o^=3
 VzFA0NU5@_gJM2LLb_Z<dK0
 R4
@@ -43,11 +57,12 @@ R6
 L0 15
 R1
 r1
-!s85 0
 31
-!s101 -O0
 R2
 R3
+!s100 BNMeN]ORC5MH?bKg4:8eP0
+!s85 0
+!s101 -O0
 vtff_ar
 I]jUL94^znl9@H]jn5in4W0
 V1ZMVBKgoR>o?0>S4eGncf2

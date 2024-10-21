@@ -5,6 +5,28 @@ Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 Top level modules:
 	tff_ar
 
+} {} {}} pb43.v {1 {vlog -work work -nocovercells D:/An_2/ComputerArhitecture/Lab4/pb43.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module tff_ar_an
+
+Top level modules:
+	tff_ar_an
+
+} {} {}} D:/An_2/ComputerArhitecture/Lab4/pb44.v {1 {vlog -work work -nocovercells D:/An_2/ComputerArhitecture/Lab4/pb44.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module mux_1s_1b
+-- Compiling module reg_parl_2b
+
+Top level modules:
+	reg_parl_2b
+
+} {} {}} pb45.v {1 {vlog -work work -nocovercells D:/An_2/ComputerArhitecture/Lab4/pb45.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module mux_1s_1b_tb
+
+Top level modules:
+	mux_1s_1b_tb
+
 } {} {}} D:/An_2/ComputerArhitecture/Lab4/pb41.v {1 {vlog -work work -nocovercells D:/An_2/ComputerArhitecture/Lab4/pb41.v
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 -- Compiling module dff_ar
