@@ -1,0 +1,15 @@
+D:/An_2/ComputerArhitecture/Lab4/pb42.v {1 {vlog -work work -nocovercells D:/An_2/ComputerArhitecture/Lab4/pb42.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module tff_ar
+
+Top level modules:
+	tff_ar
+
+} {} {}} D:/An_2/ComputerArhitecture/Lab4/pb41.v {1 {vlog -work work -nocovercells D:/An_2/ComputerArhitecture/Lab4/pb41.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module dff_ar
+
+Top level modules:
+	dff_ar
+
+} {} {}}
