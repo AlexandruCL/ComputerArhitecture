@@ -1,4 +1,4 @@
-module tff_ar(
+module tff_ar_an(
     input t,en,clk,rst,
     output reg q
 );
