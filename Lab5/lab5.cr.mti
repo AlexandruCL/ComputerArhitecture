@@ -1,1 +1,22 @@
+D:/An_2/ComputerArhitecture/Lab5/pb2.v {1 {vlog -work work -nocovercells D:/An_2/ComputerArhitecture/Lab5/pb2.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module dec_2x4_tb
 
+Top level modules:
+	dec_2x4_tb
+
+} {} {}} D:/An_2/ComputerArhitecture/Lab5/dec_2x4.v {1 {vlog -work work -nocovercells D:/An_2/ComputerArhitecture/Lab5/dec_2x4.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module dec_2x4
+
+Top level modules:
+	dec_2x4
+
+} {} {}} D:/An_2/ComputerArhitecture/Lab5/pb53.v {1 {vlog -work work -nocovercells D:/An_2/ComputerArhitecture/Lab5/pb53.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module rgst
+
+Top level modules:
+	rgst
+
+} {} {}}
