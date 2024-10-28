@@ -33,13 +33,13 @@ R3
 !s100 MZH]0JL98lVDCCzPaR67Q2
 !s85 0
 !s101 -O0
-vrgst
-!s100 FGE>GCzZj7gK_IaU1iZel2
-IKdFk_`MGRZe[zi?iTX;Q=3
-Ve1[Ua;fjl:=YljP34DbTH3
-w1730105588
-8D:/An_2/ComputerArhitecture/Lab5/pb53.v
-FD:/An_2/ComputerArhitecture/Lab5/pb53.v
+vmux_2s
+!s100 XmP34ibkzeeg`nFD[ah;K2
+IIh?ikf<4eRb8TMcJS90H>0
+V7cWfKGU:^Wo>DFeYO^;?Y3
+w1730106664
+8D:/An_2/ComputerArhitecture/Lab5/pb54.v
+FD:/An_2/ComputerArhitecture/Lab5/pb54.v
 L0 1
 R1
 r1
@@ -48,3 +48,18 @@ r1
 !s101 -O0
 R2
 R3
+vrgst
+IKdFk_`MGRZe[zi?iTX;Q=3
+Ve1[Ua;fjl:=YljP34DbTH3
+w1730105588
+8D:/An_2/ComputerArhitecture/Lab5/pb53.v
+FD:/An_2/ComputerArhitecture/Lab5/pb53.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 FGE>GCzZj7gK_IaU1iZel2
+!s85 0
+!s101 -O0
