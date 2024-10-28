@@ -1,0 +1,50 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\An_2\ComputerArhitecture\Lab5
+vdec_2x4
+Ij:I53fNCX]zV>Hg>]N6L]0
+V7U]^EmEdUoIgdMge`glAz1
+w1730104636
+8D:/An_2/ComputerArhitecture/Lab5/dec_2x4.v
+FD:/An_2/ComputerArhitecture/Lab5/dec_2x4.v
+L0 26
+Z1 OV;L;6.5b;42
+r1
+31
+Z2 !s102 -nocovercells
+Z3 o-work work -nocovercells -O0
+!s100 1g`nlO>5UMJe<[OoVnQUF1
+!s85 0
+!s101 -O0
+vdec_2x4_tb
+I@J@cWDC1>XnC@=kmEH:n>1
+V0j;coD:TJW`@ZWNIhbTeO2
+w1730105163
+8D:/An_2/ComputerArhitecture/Lab5/pb2.v
+FD:/An_2/ComputerArhitecture/Lab5/pb2.v
+L0 1
+R1
+r1
+31
+R2
+R3
+!s100 MZH]0JL98lVDCCzPaR67Q2
+!s85 0
+!s101 -O0
+vrgst
+!s100 FGE>GCzZj7gK_IaU1iZel2
+IKdFk_`MGRZe[zi?iTX;Q=3
+Ve1[Ua;fjl:=YljP34DbTH3
+w1730105588
+8D:/An_2/ComputerArhitecture/Lab5/pb53.v
+FD:/An_2/ComputerArhitecture/Lab5/pb53.v
+L0 1
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R2
+R3
