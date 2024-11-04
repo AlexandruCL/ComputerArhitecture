@@ -1,0 +1,9 @@
+D:/An_2/ComputerArhitecture/Lab6/prob1.v {1 {vlog -work work -nocovercells D:/An_2/ComputerArhitecture/Lab6/prob1.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module sadd
+-- Compiling module sadd_tb
+
+Top level modules:
+	sadd_tb
+
+} {} {}}

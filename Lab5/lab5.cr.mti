@@ -5,19 +5,19 @@ Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 Top level modules:
 	mux_2s
 
-} {} {}} D:/An_2/ComputerArhitecture/Lab5/pb55.v {1 {vlog -work work -nocovercells D:/An_2/ComputerArhitecture/Lab5/pb55.v
-Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
--- Compiling module reg_fl
-
-Top level modules:
-	reg_fl
-
 } {} {}} D:/An_2/ComputerArhitecture/Lab5/pb2.v {1 {vlog -work work -nocovercells D:/An_2/ComputerArhitecture/Lab5/pb2.v
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 -- Compiling module dec_2x4_tb
 
 Top level modules:
 	dec_2x4_tb
+
+} {} {}} D:/An_2/ComputerArhitecture/Lab5/pb55.v {1 {vlog -work work -nocovercells D:/An_2/ComputerArhitecture/Lab5/pb55.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module reg_fl
+
+Top level modules:
+	reg_fl
 
 } {} {}} D:/An_2/ComputerArhitecture/Lab5/dec_2x4.v {1 {vlog -work work -nocovercells D:/An_2/ComputerArhitecture/Lab5/dec_2x4.v
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
