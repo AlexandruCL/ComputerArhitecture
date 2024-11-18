@@ -1,0 +1,33 @@
+Linear Feedback Shift Reigster (LFSR)
+
+
+
+
+
+Truth Table for problem 8.2
+
+q[0]<-q[3]
+q[1]<-q[3] EXOR q[0]
+q[2]<-q[1]
+q[3]<-q[2]
+
+clk rst set q[0] q[1] q[2] q[3]
+x   1   0   1    1    1     1
+    1   1   1    0    1     1
+            1    0    0     1
+            1    0    0     0
+            0    1    0     0
+            0    0    1     0
+            0    0    0     1
+            1    1    0     0
+            0    1    1     0
+            0    0    1     1
+            1    1    0     1
+            1    0    1     0
+            0    1    0     1
+            1    1    1     0
+            0    1    1     1
+            1    1    1     1
+
+
+Single Input Signature Reigster (SISR)
