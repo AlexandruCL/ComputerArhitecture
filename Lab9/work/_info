@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+dD:\An_2\ComputerArhitecture\Lab8
+vadder_64b
+!s100 YY392@<X;G@c7:XfBJ;TZ1
+I6Ze;]>D9i9<C4d?SlGR_Q3
+VV<ZhR48NnO:4oD9je[^=l2
+Z0 dD:\An_2\ComputerArhitecture\Lab9
+Z1 w1732526559
+Z2 8D:/An_2/ComputerArhitecture/Lab9/lab9.v
+Z3 FD:/An_2/ComputerArhitecture/Lab9/lab9.v
+L0 1
+Z4 OV;L;6.5b;42
+r1
+!s85 0
+31
+!s101 -O0
+Z5 !s102 -nocovercells
+Z6 o-work work -nocovercells -O0
+vcounter_4b
+!s100 j[NQXm=jSaC=n^jbfCJ?k1
+ISbk;LB?0g6>:]Q@CS8zI42
+V2b0N6W5BfYZhJ]OW<ofeX1
+Z7 dD:\An_2\ComputerArhitecture\Lab9
+R1
+R2
+R3
+L0 22
+R4
+r1
+!s85 0
+31
+!s101 -O0
+R5
+R6
+vpkt_mux
+!s100 O>BdcI:_[YK1m7B37@;JD0
+IXeeodaahJ8FNd_9GMeT8>0
+VMcI7[9Ih81YIPaXUSTb9e0
+R7
+R1
+R2
+R3
+L0 37
+R4
+r1
+!s85 0
+31
+!s101 -O0
+R5
+R6
+vpre_processing_unit
+!s100 _Mn[C04@=lU5l2hP_dD080
+IoBS0U:O5?ln<OgG0Mioh:3
+VFGccPLS4=4bXm3Q:B?a7n0
+R7
+R1
+R2
+R3
+L0 61
+R4
+r1
+!s85 0
+31
+!s101 -O0
+R5
+R6
+vrgst
+!s100 E_STIUh=M_Wi2l5z`l3Mh3
+I0Rk^`^^03?W174@ZG=ZSf3
+VL82>3`i]Y_11=zi_5IGLf0
+R7
+R1
+R2
+R3
+L0 8
+R4
+r1
+!s85 0
+31
+!s101 -O0
+R5
+R6
