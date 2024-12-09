@@ -7,15 +7,31 @@ vsigma_boy
 !s100 Coin`L7c`?N3JbOfUNCNJ0
 I4HEB9kBamzn1lCL0cUE2I2
 VS?a^C<Z5>7]CNH^]Qm;mJ3
-dD:\An_2\ComputerArhitecture\Lab11
-w1733734788
-8D:/An_2/ComputerArhitecture/Lab11/t.v
-FD:/An_2/ComputerArhitecture/Lab11/t.v
+Z0 dD:\An_2\ComputerArhitecture\Lab11
+Z1 w1733735869
+Z2 8D:/An_2/ComputerArhitecture/Lab11/t.v
+Z3 FD:/An_2/ComputerArhitecture/Lab11/t.v
 L0 1
-OV;L;6.5b;42
+Z4 OV;L;6.5b;42
 r1
 !s85 0
 31
 !s101 -O0
-!s102 -nocovercells
-o-work work -nocovercells -O0
+Z5 !s102 -nocovercells
+Z6 o-work work -nocovercells -O0
+vsigma_boy2
+!s100 JR?iZ_7bGbBU;Te`3:NaQ3
+IJB`joXgE4d10lLNTX2Ubl3
+VE78nVmbj?>zNnK8EP4WVl1
+Z7 dD:\An_2\ComputerArhitecture\Lab11
+R1
+R2
+R3
+L0 10
+R4
+r1
+!s85 0
+31
+!s101 -O0
+R5
+R6
