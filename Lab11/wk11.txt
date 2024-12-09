@@ -1,0 +1,5 @@
+The message scheduler expands the 512 bit block to a 2048 bit data packet. The 2048 bits are organised in words denoted by W0 - W63.
+The first 16 words denoted by W0 - W15 represent the initial 512 bit block delivered by the register file. 
+The remaining 48 words are computed with the following computed formula: last row from function.jpg
+
+The lowercase sigma functions are calculated using the eqs system below 
