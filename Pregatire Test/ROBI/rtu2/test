@@ -1,0 +1,38 @@
+module test;
+	reg [9:0] i;
+	wire o;
+	integer k;
+	integer counter;
+	reg correct_o;
+	wire ok;
+
+  localparam nr_teste=1024;
+
+	rtu2_p1 cut(
+		.i(i),
+		.o(o)
+	);
+	
+	assign ok = o===correct_o;
+	
+	initial begin
+		$display("i\to\tok");
+		$monitor("%b\t%b\t%s", i, o, ok ? "ok" : "not ok");
+		
+		counter = 0;
+		for (k = 0; k < nr_teste; k = k + 1) begin
+			i = k;
+			correct_o = ((i >= 512) && (i <= 719) && (i%4==0)) ? 1'd1 : 1'd0;
+			#10;
+		end
+		
+		#10;
+		if (counter==nr_teste)
+			$display("\n=============================\nall tests ok\n=============================\n");
+		else
+			$display("\n=============================\n%1d out of %1d tests ok\n=============================\n", counter, nr_teste);
+	end
+	
+	always @ (i)
+		#1 counter <= counter + ok;
+endmodule

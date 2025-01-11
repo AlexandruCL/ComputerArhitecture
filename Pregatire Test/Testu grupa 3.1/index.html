@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--<meta http-equiv="refresh" content="30">-->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Computer Architecture</title>
+<style type="text/css">
+<!--
+.style2 {
+  font-size: large;
+  font-weight: bold;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+-->
+</style>
+</head>
+<body>
+<h1>Practical activity test</h1>
+
+<h3>Working procedure</h3>
+<strong>Create a pesonal directory</strong>, of the form &quot;FirstName_LastName&quot;. Solve the proposed problems in your personal folder. For each problem, <strong>download</strong> the associated archive, <strong>extract</strong> it and <strong>change the working directory in Modelsim</strong> (using "File -&gt; Change Directory ..." menu) to the problem's extracted folder. Solve the problem by <strong>completing the Verilog implementation in the indicated source file</strong>.<br/>
+<br/>
+For <strong>testing an implementation</strong> execute, in the Transcript window of the Modelsim environment, command <strong><u>do test</u></strong>. The provided test script indicates possible failed configurations for correcting your solution.
+<br/>
+<br/>
+After solving the proposed problems, archive your personal folder, including all solutions. <strong>Upload</strong> your solution's archive on the dedicated Virtual Campus test activity. <br/>
+<br/>
+
+<span class="style2"><u>Problem 1 (3 points)</u></span><br/>
+Consider a combinatinal circuit having a 6-bit input  <code>i</code>, a 2-bit output <code>o</code> and a  1-bit output <code>v</code>. The circuit's behaviour is described by the truth table bellow. Construct the design in Verilog taking into account the fact that the output lines are not required to have minimal form. For implementation, complete the Verilog code in the <code><u>prenc.v</u></code> source file from the problem's archive available  <a href="data/p1.zip" target="_blank">here</a>. If deemed necessary, additional modules can be constructed.<br/>
+<table width="200" border="1">
+
+  <tr>
+    <th colspan="6" scope="col">Inputs</th>
+    <th colspan="3" scope="col">Outputs</th>
+  </tr>
+
+  <tr>
+    <th scope="col"><code>i<sub>5</sub></code></th>
+    <th scope="col"><code>i<sub>4</sub></code></th>
+    <th scope="col"><code>i<sub>3</sub></code></th>
+    <th scope="col"><code>i<sub>2</sub></code></th>
+    <th scope="col"><code>i<sub>1</sub></code></th>
+    <th scope="col"><code>i<sub>0</sub></code></th>
+    <th scope="col"><code>o<sub>1</sub></code></th>
+    <th scope="col"><code>o<sub>0</sub></code></th>
+    <th scope="col"><code>v</code></th>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>*</td>
+    <td>*</td>
+    <td>*</td>
+    <td>*</td>
+    <td>*</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>*</td>
+    <td>*</td>
+    <td>*</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>*</td>
+    <td>*</td>
+    <td>*</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>*</td>
+    <td>*</td>
+    <td>*</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>*</td>
+    <td>*</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+</table>
+<br/>
+
+<span class="style2"><u>Problem 2 (4 points)</u></span><br/>
+Design, using Verilog, the architecture depicted in the figure bellow (click for zoom). For implementation, complete the Verilog code in the <code><u>mcb.v</u></code> and in the <code><u>multiplier.v</u></code> source files from the problem's archive available <a href="data/p2.zip" target="_blank">here</a>. The <code><u>multiplier.v</u></code> source file already contains the instantiations for the modules CL<sub>0</sub>, CL<sub>1</sub> and CL<sub>2</sub> (hatched with yellow lines). Also in <code><u>multiplier.v</u></code>, the signals connecting the MCB instances (a0, b0, ..., a2, b2, c0[1], w0[1], ...) are already defined and adnotated on the diagram.  The CL<sub>0</sub>, CL<sub>1</sub> and CL<sub>2</sub> modules are implemented and their source files are provided in problem's archive. If deemed necessary, additional modules can be constructed.<br/>
+  <a href="img/comb.svg" target="_blank"><img src="img/comb.svg" alt="" width="500px" style="border:1px solid black;"/></a><br/>
+<br/>
+
+<span class="style2"><u>Problem 3 <u> (2 points) </u></u></span><br />
+Design, using Verilog, the Finite State Machine depicted in the figure bellow (click for zoom) using the One Hot encoding. For implementation complete the Verilog code in the <code>fsm.v</code><code></code> source file from the problem's archive available <a href="data/p3.zip" target="_blank">here</a>. If deemed necessary, additional modules can be constructed.<br />
+<a href="img/fsm.svg" target="_blank"><img src="img/fsm.svg" alt="" width="250px" style="border:1px solid black;"/></a>
+</body>
+</html>

@@ -1,0 +1,4 @@
+quit -sim
+vlog *.v
+vsim work.test
+run -all

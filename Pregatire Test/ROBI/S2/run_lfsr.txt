@@ -1,0 +1,33 @@
+# add all Verilog source files, separated by spaces
+set sourcefiles {lfsr.v}
+
+# set name of the top module
+set topmodule lfsr_tb
+
+###################################################
+#####DO NOT MODIFY THE SCRIPT BELLOW THIS LINE#####
+###################################################
+
+# quit current simulation if any
+quit -sim
+
+# empty the work library if present
+if [file exists "work"] {vdel -all}
+#create a new work library
+vlib work
+
+# Before running the compiler
+puts "Compiling Verilog files..."
+if [catch "eval vlog $sourcefiles"] {
+    puts "Compilation failed. Check for errors."
+    return
+}
+
+puts "Compilation successful. Running simulation..."
+
+vsim -voptargs=+acc $topmodule
+
+add wave *
+run -all
+
+

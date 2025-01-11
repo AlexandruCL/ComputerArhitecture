@@ -1,0 +1,9 @@
+quit -sim
+if {![file exists work/]} then {
+  vlib work
+  vmap work
+}
+vlog *.v
+vsim -voptargs=+acc work.test
+add wave sim:/test/*
+run -all

@@ -1,0 +1,4 @@
+if [file exists "work"] {vdel -all}
+vlib work
+if [catch "vlog c1_add4b.v"] return
+vsim -voptargs=+acc c1_add4b_tb
