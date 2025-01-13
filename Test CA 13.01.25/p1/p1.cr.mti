@@ -1,0 +1,9 @@
+{D:/An_2/ComputerArhitecture/Test CA 13.01.25/p1/p1.v} {1 {vlog -work work -nocovercells {D:/An_2/ComputerArhitecture/Test CA 13.01.25/p1/p1.v}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module pal_4b
+-- Compiling module pal_4b_tb
+
+Top level modules:
+	pal_4b_tb
+
+} {} {}}
